@@ -1,0 +1,19 @@
+{
+  "name": "rectangle",
+  "version": "1.0.0",
+  "description": "计算矩形的周长和面积",
+  "main": "rectangle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijianhui1997/rectangle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lijianhui1997/rectangle/issues"
+  },
+  "homepage": "https://github.com/lijianhui1997/rectangle#readme"
+}
