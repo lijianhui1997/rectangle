@@ -8,22 +8,23 @@
       <link rel="stylesheet" href="rectangle.css">
     </head>
     <body>
-      <div class="rectangle">
+      <div>
         <label>宽度：</label> 
-        <input id="rectangle-width" type="text" data-label="宽度" autofocus>
+        <input id="width" type="text" data-label="宽度" autofocus>
         <span>*</span><br>
-        <div id="rectangle-width-validate">
+        <div id="validate">
         </div><label>高度：</label> 
-        <input id="rectangle-height" type="text" data-label="高度"> 
+        <input id="height" type="text" data-label="高度"> 
         <span>*</span><br>
         <div id="rectangle-height-validate"></div>
-        <input id="rectangle-calc" type="button" value="计算"><br>
+        <input id="caculate" type="button" value="计算"><br>
         <label>周长：</label> 
-        <input id="rectangle-perimeter" type="text" disabled="disabled"><br>
+        <input id="perimeter" type="text" disabled="disabled"><br>
         <label>面积：</label> 
-        <input id="rectangle-area" type="text" disabled="disabled">
+        <input id="area" type="text" disabled="disabled">
       </div>
       <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script src="calc.js"></script>
       <script src="rectangle.js"></script>
     </body>
   </html>
